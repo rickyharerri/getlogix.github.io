@@ -8,7 +8,10 @@ export default {
   ...DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
-      'layout-bottom': () => h(CustomFooter),
+      'layout-bottom': () => [
+        h(TestimonialsSection),
+        h(CustomFooter)
+      ],
       // Override any other footer slots
       'doc-after': () => null,
       'doc-footer-before': () => null,

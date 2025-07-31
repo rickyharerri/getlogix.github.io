@@ -98,7 +98,7 @@ const isHomePage = computed(() => router.route.path === '/' || router.route.path
 
 .testimonials-header {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .testimonials-header h2 {
@@ -124,7 +124,7 @@ const isHomePage = computed(() => router.route.path === '/' || router.route.path
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1.5rem;
 }
 
 .testimonial-card {
