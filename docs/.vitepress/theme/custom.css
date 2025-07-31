@@ -1,0 +1,170 @@
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #ed691c 20%,
+    #f6e3df 100%
+  );
+
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    rgba(241, 26, 123, 0.33) 50%,
+    rgba(254, 255, 172, 0.33) 50%
+  );
+  --vp-home-hero-image-filter: blur(40px);
+}
+
+/* Custom logo styling */
+.VPNavBarTitle .logo {
+  height: 32px !important;
+  width: auto !important;
+}
+
+/* Custom hero text styling */
+.VPHero .text {
+  font-size: 52px !important;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(72px);
+  }
+}
+
+/* Custom footer styling */
+.VPFooter .container {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 1rem !important;
+}
+
+.VPFooter .message {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100% !important;
+  flex-wrap: wrap !important;
+  gap: 1rem !important;
+}
+
+/* Custom button styling */
+.VPButton.brand {
+  background: linear-gradient(120deg, #ed691c 0%, #f97316 100%) !important;
+  border-color: #ed691c !important;
+}
+
+.VPButton.brand:hover {
+  background: linear-gradient(120deg, #dc2626 0%, #ed691c 100%) !important;
+  border-color: #dc2626 !important;
+}
+
+/* Custom navigation styling */
+.VPNavBarMenu .VPNavBarMenuLink {
+  color: #ed691c !important;
+  font-weight: 600 !important;
+}
+
+.VPNavBarMenu .VPNavBarMenuLink:hover {
+  color: #dc2626 !important;
+}
+
+/* Active navigation item - styled like Learn more button */
+.VPNavBarMenu .VPNavBarMenuLink.router-link-active,
+.VPNavBarMenu .VPNavBarMenuLink.active,
+.VPNavBar .VPNavBarMenuLink.router-link-active,
+.VPNavBar .VPNavBarMenuLink.active {
+  color: white !important;
+  background: linear-gradient(120deg, #ed691c 0%, #f97316 100%) !important;
+  border-radius: 20px !important;
+  margin: 16px !important;
+  height: 38px !important;
+  font-weight: 600 !important;
+  border: 1px solid #ed691c !important;
+}
+
+/* Additional selectors for nav items */
+.VPNavBar .VPNavBarMenuLink {
+  color: #ed691c !important;
+  font-weight: 600 !important;
+}
+
+.VPNavBar .VPNavBarMenuLink:hover {
+  color: #dc2626 !important;
+}
+
+/* Override any default active states */
+.VPNav .router-link-active,
+.VPNavBar .router-link-active,
+.VPNavBarMenu .router-link-active,
+nav .router-link-active {
+  color: white !important;
+  background: linear-gradient(120deg, #ed691c 0%, #f97316 100%) !important;
+  border-radius: 20px !important;
+  padding: 8px 16px !important;
+  font-weight: 600 !important;
+  border: 1px solid #ed691c !important;
+}
+
+@media (max-width: 639px) {
+  .VPFooter .message {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+}
+
+/* Fix footer visibility issues */
+.combined-footer {
+  position: relative !important;
+  z-index: 10 !important;
+  width: 100% !important;
+  clear: both !important;
+}
+
+/* Ensure footer doesn't get hidden behind sidebar */
+.VPContent {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.VPSidebar {
+  z-index: 5 !important;
+}
+
+/* Force footer to appear after content */
+.Layout {
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 100vh !important;
+}
+
+/* Additional VitePress layout fixes */
+.VPDoc {
+  margin-bottom: 0 !important;
+}
+
+.VPDocFooter {
+  margin-bottom: 2rem !important;
+}
+
+/* Ensure proper stacking context */
+.vp-doc {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Fix sidebar overlap on documentation pages */
+@media (min-width: 960px) {
+  .combined-footer {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
