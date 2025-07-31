@@ -44,6 +44,7 @@ export default defineConfig({
       },
     ],
     ['link', { rel: 'shortcut icon', href: '/img/favicons/favicon.ico' }],
+    ['link', { rel: 'author', href: '/humans.txt' }],
     ['meta', { name: 'og:image', content: '/img/og-image.png' }],
     ['meta', { name: 'twitter:image', content: '/img/og-image.png' }],
     ['meta', { property: 'og:title', content: 'GetLogix Inc. Canada - Transformative Software Solutions' }],

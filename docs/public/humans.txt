@@ -1,0 +1,27 @@
+# The Team
+
+Frontend Developer: GetLogix Inc. Canada Development Team
+Contact: info [at] getlogix.com
+Location: Canada
+
+Backend Developer: GetLogix Inc. Canada Development Team  
+Contact: info [at] getlogix.com
+Location: Canada
+
+UI/UX Designer: GetLogix Inc. Canada Design Team
+Contact: info [at] getlogix.com
+Location: Canada
+
+# Technology
+
+Standards: HTML5, CSS3, ES6+, TypeScript
+Components: Vue.js, VitePress
+Tools: GitHub, VS Code, Node.js
+Software: Adobe Creative Suite, Figma
+
+# Site Info
+
+Language: English
+Doctype: HTML5
+IDE: Visual Studio Code
+Last update: 2025/07/31

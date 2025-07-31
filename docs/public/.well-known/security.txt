@@ -1,0 +1,6 @@
+Contact: mailto:security@getlogix.com
+Contact: mailto:info@getlogix.com
+Expires: 2026-01-31T23:59:59.000Z
+Acknowledgments: https://www.getlogix.com/security-acknowledgments
+Preferred-Languages: en
+Canonical: https://www.getlogix.com/.well-known/security.txt
