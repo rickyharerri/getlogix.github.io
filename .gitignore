@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 docs/build
+# Allow /build folder for GitHub Pages deployment
+!/build
 
 # Editor directories and files
 .vscode/*
