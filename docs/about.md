@@ -62,4 +62,4 @@ We serve clients worldwide, providing technology solutions that scale from start
 
 ---
 
-*Trusted development partner since 2020*
+*Trusted development partner since 2013*
