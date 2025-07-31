@@ -1,4 +1,4 @@
-# About GetLogix Inc. Canada
+# About Us
 
 ## Company Overview
 
