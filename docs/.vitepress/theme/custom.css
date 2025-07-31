@@ -168,3 +168,13 @@ nav .router-link-active {
     margin-right: 0 !important;
   }
 }
+
+/* Hide VitePress default footer to prevent duplication */
+.VPFooter {
+  display: none !important;
+}
+
+/* Hide any default copyright/footer content */
+.vp-doc .VPDocFooter .footer {
+  display: none !important;
+}
