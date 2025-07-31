@@ -79,7 +79,7 @@ export default defineConfig({
         "description": "Trusted Development Partner for Web, Mobile App, POS, and AI Solutions",
         "url": "https://www.getlogix.com",
         "logo": "https://www.getlogix.com/img/fullLogo.svg",
-        "foundingDate": "2020",
+        "foundingDate": "2013",
         "founder": [
           {
             "@type": "Person",
@@ -126,11 +126,20 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'About', link: '/about-us' },
+      { text: 'Contact', link: '/contact-us' },
       // { text: 'Docs', link: '/getting-started' },
     ],
 
     sidebar: {
       '/': [
+        {
+          text: 'Company',
+          items: [
+            { text: 'About Us', link: '/about-us' },
+            { text: 'Contact Us', link: '/contact-us' },
+          ],
+        },
         {
           text: 'Docs',
           items: [

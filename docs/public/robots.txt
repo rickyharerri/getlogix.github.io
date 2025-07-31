@@ -12,10 +12,10 @@ Crawl-delay: 1
 # Disallow: /admin/
 
 # Allow specific important paths
-Allow: /about
+Allow: /about-us
 Allow: /services/
 Allow: /portfolio
-Allow: /contact
+Allow: /contact-us
 Allow: /getting-started
 Allow: /setup
 

@@ -59,10 +59,10 @@
           <div class="footer-section">
             <h3>Company</h3>
             <ul class="footer-links">
-              <li><a href="/about">About Us</a></li>
+              <li><a href="/about-us">About Us</a></li>
               <li><a href="/portfolio">Portfolio</a></li>
               <li><a href="/blog">Blog</a></li>
-              <li><a href="/contact">Contact Us</a></li>
+              <li><a href="/contact-us">Contact Us</a></li>
             </ul>
           </div>
         </div>
