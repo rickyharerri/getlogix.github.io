@@ -73,7 +73,7 @@
     <div class="footer-bottom">
       <div class="footer-container">
         <div class="footer-bottom-content">
-          <p>&copy; {{ new Date().getFullYear() }} GetLogix Inc. Trusted development partner.</p>
+          <p>&copy; {{ new Date().getFullYear() }} GetLogix Inc. Canada Trusted development partner.</p>
           <div class="copyright-links">
             <a href="/privacy-policy">Privacy Policy</a>
             <span>|</span>

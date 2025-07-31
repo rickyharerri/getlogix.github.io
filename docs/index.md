@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-titleTemplate: GetLogix Inc.
+titleTemplate: GetLogix Inc. Canada
 
 hero:
   name: "Enact your goals..."

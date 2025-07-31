@@ -5,8 +5,8 @@ export default defineConfig({
   base: '/',
   outDir: 'build',
   cleanUrls: "with-subfolders",
-  title: 'GetLogix Inc.',
-  titleTemplate: ':title | GetLogix Inc.',
+  title: 'GetLogix Inc. Canada',
+  titleTemplate: ':title | GetLogix Inc. Canada',
   description: 'Trusted Development Partner for Web, Mobile App, POS, and AI Solutions',
   head: [
     [
@@ -46,6 +46,13 @@ export default defineConfig({
     ['link', { rel: 'shortcut icon', href: '/img/favicons/favicon.ico' }],
     ['meta', { name: 'og:image', content: '/img/og-image.png' }],
     ['meta', { name: 'twitter:image', content: '/img/og-image.png' }],
+    ['meta', { property: 'og:title', content: 'GetLogix Inc. Canada - Transformative Software Solutions' }],
+    ['meta', { property: 'og:description', content: 'Trusted Development Partner for Web, Mobile App, POS, and AI Solutions' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: 'https://www.getlogix.com/' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:site', content: '@getlogix47' }],
+    ['meta', { name: 'twitter:creator', content: '@getlogix47' }],
     ['link', { rel: 'canonical', href: 'https://www.getlogix.com/' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
     [
@@ -59,6 +66,57 @@ export default defineConfig({
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-QHBJE740ST');`
+    ],
+    [
+      'script',
+      { type: 'application/ld+json' },
+      JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "GetLogix Inc. Canada",
+        "alternateName": "GetLogix",
+        "description": "Trusted Development Partner for Web, Mobile App, POS, and AI Solutions",
+        "url": "https://www.getlogix.com",
+        "logo": "https://www.getlogix.com/img/fullLogo.svg",
+        "foundingDate": "2020",
+        "founder": [
+          {
+            "@type": "Person",
+            "name": "Ricky Harerri"
+          }
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "CA",
+          "addressRegion": "Canada"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "info@getlogix.com",
+          "contactType": "customer service"
+        },
+        "sameAs": [
+          "https://github.com/getlogix",
+          "https://linkedin.com/company/getlogix",
+          "https://x.com/getlogix47"
+        ],
+        "knowsAbout": [
+          "Web Development",
+          "Mobile App Development",
+          "AI Solutions",
+          "Cloud Computing",
+          "DevOps",
+          "UI/UX Design"
+        ],
+        "areaServed": "Worldwide",
+        "serviceType": [
+          "Web Development",
+          "Mobile Application Development",
+          "Artificial Intelligence Solutions",
+          "Cloud Solutions",
+          "IT Consulting"
+        ]
+      })
     ],
   ],
   themeConfig: {
@@ -102,7 +160,7 @@ export default defineConfig({
 
     // footer: {
     //   message:
-    //     `© ${new Date().getFullYear()} GetLogix Inc. Trusted development partner.`,
+    //     `© ${new Date().getFullYear()} GetLogix Inc. Canada Trusted development partner.`,
     // },
   },
 })
