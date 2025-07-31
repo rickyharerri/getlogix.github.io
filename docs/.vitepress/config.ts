@@ -46,6 +46,20 @@ export default defineConfig({
     ['link', { rel: 'shortcut icon', href: '/img/favicons/favicon.ico' }],
     ['meta', { name: 'og:image', content: '/img/og-image.png' }],
     ['meta', { name: 'twitter:image', content: '/img/og-image.png' }],
+    ['link', { rel: 'canonical', href: 'https://www.getlogix.com/' }],
+    ['meta', { name: 'robots', content: 'index, follow' }],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-QHBJE740ST' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QHBJE740ST');`
+    ],
   ],
   themeConfig: {
     logo: '/img/fullLogo.svg',
