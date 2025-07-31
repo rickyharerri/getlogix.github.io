@@ -141,6 +141,12 @@ export default defineConfig({
             { text: 'Configuration', link: '/configuration' },
           ],
         },
+        {
+          text: 'Security',
+          items: [
+            { text: 'Security Acknowledgments', link: '/security-acknowledgments' },
+          ],
+        },
       ],
     },
 

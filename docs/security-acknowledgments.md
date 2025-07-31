@@ -1,9 +1,3 @@
----
-layout: page
-title: Security Acknowledgments
-description: We thank the security researchers who help keep GetLogix Inc. Canada and our clients safe.
----
-
 # Security Acknowledgments
 
 At GetLogix Inc. Canada, we take security seriously and appreciate the efforts of security researchers who help us maintain the safety and integrity of our systems and services.
