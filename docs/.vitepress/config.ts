@@ -163,4 +163,13 @@ export default defineConfig({
     //     `© ${new Date().getFullYear()} GetLogix Inc. Canada Trusted development partner.`,
     // },
   },
+  
+  // Meta tags for better SEO
+  transformHead: ({ pageData }) => {
+    return [
+      ['meta', { name: 'keywords', content: 'web development, mobile apps, AI solutions, cloud computing, GetLogix, Canada, software development' }],
+      ['meta', { name: 'author', content: 'GetLogix Inc. Canada' }],
+      ['link', { rel: 'sitemap', type: 'application/xml', href: '/sitemap.xml' }]
+    ]
+  }
 })
