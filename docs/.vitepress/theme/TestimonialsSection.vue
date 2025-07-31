@@ -75,11 +75,15 @@
 </template>
 
 <script setup>
-import { useRouter } from 'vitepress'
+import { useData } from 'vitepress'
 import { computed } from 'vue'
 
-const router = useRouter()
-const isHomePage = computed(() => router.route.path === '/' || router.route.path === '/index.html')
+const { page } = useData()
+const isHomePage = computed(() => {
+  if (!page.value) return false
+  const relativePath = page.value.relativePath
+  return relativePath === 'index.md' || relativePath === '' || relativePath === '/'
+})
 </script>
 
 <style scoped>
