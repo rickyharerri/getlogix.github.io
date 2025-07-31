@@ -23,3 +23,5 @@ features:
   - title: Innovations
     details: Cutting-edge technologies that keep you ahead of the competition. Breakthrough solutions that redefine what's possible in your industry. Revolutionary approaches that turn ambitious goals into tangible results.
 ---
+
+<TestimonialsSection />

@@ -1,5 +1,5 @@
 <template>
-  <section v-if="isHomePage" class="testimonials-section">
+  <section class="testimonials-section">
     <div class="footer-container">
       <!-- Testimonials Section Header -->
       <div class="testimonials-header">
@@ -75,15 +75,7 @@
 </template>
 
 <script setup>
-import { useData } from 'vitepress'
-import { computed } from 'vue'
-
-const { page } = useData()
-const isHomePage = computed(() => {
-  if (!page.value) return false
-  const relativePath = page.value.relativePath
-  return relativePath === 'index.md' || relativePath === '' || relativePath === '/'
-})
+// Testimonials section - always show for now to debug
 </script>
 
 <style scoped>
