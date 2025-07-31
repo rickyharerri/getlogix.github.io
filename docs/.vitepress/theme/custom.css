@@ -170,8 +170,17 @@ nav .router-link-active {
 }
 
 /* Hide VitePress default footer to prevent duplication */
-.VPFooter {
+.VPFooter,
+.VPDocFooter .VPDocFooterLastUpdated,
+.vp-doc .VPDocFooter .footer,
+.Layout footer:not(.combined-footer),
+footer:not(.combined-footer) {
   display: none !important;
+}
+
+/* Ensure only our custom footer is visible */
+footer.combined-footer {
+  display: block !important;
 }
 
 /* Hide any default copyright/footer content */

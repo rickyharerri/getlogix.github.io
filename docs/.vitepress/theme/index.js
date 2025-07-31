@@ -11,7 +11,11 @@ export default {
       'layout-bottom': () => [
         h(TestimonialsSection),
         h(CustomFooter)
-      ]
+      ],
+      // Override any other footer slots
+      'doc-after': () => null,
+      'doc-footer-before': () => null,
+      'home-footer': () => null
     })
   },
   enhanceApp({ app }) {
